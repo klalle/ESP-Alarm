@@ -8,23 +8,19 @@
 */
 
 // Initialize Wifi connection to the router
-char ssid[] = "Smaggan";              // your network SSID (name)
-char password[] = "hibiskusblomma";             // your network key
+char ssid[] = "myWiFiName";              // your network SSID (name)
+char password[] = "myPassword";             // your network key
 
 //Debug?
 #define SerialDebug true
 
 // Initialize Telegram BOT (telephone app bot)
-#define BOTtoken "272266714:AAHxKu-xVr1ukNWgyzuUZuDBwZ-E2_AqXuM"  //token of Smaggan 
-#define BOTname "Smaggan"
-#define BOTusername "Smaggan_bot"
+#define BOTtoken "203981293823:2fsdkjivhohidvhv"  //token bot 
+#define BOTname "MyBotName"
+#define BOTusername "MyBotUserName"
 
-/*
-#define BOTtoken "307344844:AAEty3cQPhptxaVvjJHklRx9f_7-ICIwT54"  //token of Smaggan2
-#define BOTname "Smaggan2"
-#define BOTusername "Smaggan_bot2"
-*/
-#define ChatID "-198620254" //Se filen Chat ID för hur man får tag på det
+
+#define ChatID "-1234556" //Se filen Chat ID för hur man får tag på det
 
 TelegramBOT bot(BOTtoken, BOTname, BOTusername); //define an instance of TelegramBOT called "bot"
 
